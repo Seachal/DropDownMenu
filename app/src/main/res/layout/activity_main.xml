@@ -1,9 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:orientation="vertical">
+
 <com.yyydjk.library.DropDownMenu
     android:id="@+id/dropDownMenu"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="100dp"
     app:ddmenuTextSize="13sp"
     app:ddtextUnselectedColor="@color/drop_down_unselected"
     app:ddtextSelectedColor="@color/drop_down_selected"
@@ -14,4 +21,15 @@
     app:ddmaskColor="@color/mask_color"
     app:ddmenuBackgroundColor="@color/white"
     app:ddmenuUnselectedIcon="@mipmap/drop_down_unselected_icon"
-  />
+  >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="ddjjdjdjdjdjd"
+        android:gravity="bottom"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        />
+</com.yyydjk.library.DropDownMenu>
+
+</LinearLayout>
