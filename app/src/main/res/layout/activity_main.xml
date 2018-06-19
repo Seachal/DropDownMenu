@@ -1,19 +1,20 @@
 <com.yyydjk.library.DropDownMenu
-    android:id="@+id/dropDownMenu"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/dropDownMenu"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:ddmenuTextSize="13sp"
-    app:ddtextUnselectedColor="@color/drop_down_unselected"
-    app:ddtextSelectedColor="@color/drop_down_selected"
     app:dddividerColor="@color/gray"
-    app:ddunderlineColor="@color/gray"
-    app:ddmenuMenuHeightPercent="0.5"
     app:ddmaskColor="@color/mask_color"
     app:ddmenuBackgroundColor="@color/white"
-    app:ddmenuUnselectedIcon="@drawable/vector_triangle_inverted"
+    app:ddmenuDrawableRightPadding="10dp"
+    app:ddmenuMenuHeightPercent="0.5"
     app:ddmenuSelectedIcon="@drawable/vector_triangle_forward"
-        />
+    app:ddmenuTextSize="13sp"
+    app:ddmenuUnselectedIcon="@drawable/vector_triangle_inverted"
+    app:ddtextSelectedColor="@color/drop_down_selected"
+    app:ddtextUnselectedColor="@color/drop_down_unselected"
+    app:ddunderlineColor="@color/gray"
+    />
 
 

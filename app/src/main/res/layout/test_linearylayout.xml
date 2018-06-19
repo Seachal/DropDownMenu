@@ -6,27 +6,44 @@
     android:orientation="horizontal"
     >
 
-    <TextView
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/vector_triangle_inverted"
+            android:gravity="center"
+            android:text="规格"
+            android:textSize="16sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:layout_gravity="center"
         android:gravity="center"
-        android:text="规格"
-        android:drawableRight="@drawable/vector_triangle_inverted"
-        android:textSize="16sp"
-        />
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_gravity="center"
-        android:gravity="center"
-        android:text="规格"
-        android:drawableRight="@drawable/vector_triangle_inverted"
-        android:drawablePadding="10dp"
-        android:textSize="16sp"
-        />
+        >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/vector_triangle_inverted"
+            android:gravity="center"
+            android:text="规格"
+            android:textSize="16sp"
+            />
 
+    </LinearLayout>
 </LinearLayout>
