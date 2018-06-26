@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                mDropDownMenu.setLeftSmallTagText("2");
                 mDropDownMenu.setTabText(constellationPosition == 0 ? headers[3] : constellations[constellationPosition]);
                 mDropDownMenu.closeMenu();
             }

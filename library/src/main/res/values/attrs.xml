@@ -11,6 +11,11 @@
         <attr name="ddmenuTextSize" format="dimension"/>
         <attr name="ddmenuSelectedIcon" format="reference"/>
         <attr name="ddmenuUnselectedIcon" format="reference"/>
+        <attr name="ddmenuLeftSmallDefaultIcon" format="reference"/>
+        <attr name="ddmenuLeftSmallSelectedIcon" format="reference"/>
+        <attr name="ddmenuLeftSmallTextDefaultColor" format="color"/>
+        <attr name="ddmenuLeftSmallTextSelectedColor" format="color"/>
+        <attr name="dddmenuLeftSmallTexttSize" format="dimension"/>
         <attr name="ddmenuDrawableRightPadding" format="dimension"/>
         <attr name="ddmenuMenuHeightPercent" format="float"/>
     </declare-styleable>
